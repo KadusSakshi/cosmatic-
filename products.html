@@ -1,0 +1,236 @@
+<?php
+    session_start();
+    require 'check_if_added.php';
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="img/main 1.jpg" />
+        <title>sugar cosmetic store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+        <!-- jquery library -->
+        <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+        <!-- Latest compiled and minified javascript -->
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- External CSS -->
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <div>
+            <?php
+                require 'header.php';
+            ?>
+            <div class="container">
+                <div class="jumbotron">
+                    <h1>Welcome to our sugar cosmetic store!</h1>
+                    <p>We have the best face,lips and eyes product for you. No need to hunt around, we have all in one place.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w1.jpeg" alt="Cannon">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>foundation stick</h3>
+                                    <p>Price: Rs. 36000.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                    
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w2.jpeg" alt="Sony DSLR">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>Sugar b3 compact</h3>
+                                    <p>Price: Rs. 40000.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                            
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w6.jpeg" alt="HXR">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>face fwd</h3>
+                                    <p>Price: Rs. 900.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w4.jpeg" alt="HXR">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>apple compact</h3>
+                                    <p>Price: Rs. 900.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w5.jpeg" alt="Titan 301">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>sugar b3w powder</h3>
+                                    <p>Price: Rs. 13000.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w6.jpeg" alt="Titan 201">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>sugar light compact</h3>
+                                    <p>Price: Rs. 3000.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w9.jpeg" alt="htm milan">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>sugar dark powder</h3>
+                                    <p>Price: Rs. 8000.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w8.jpeg" alt="Favre Leuba">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>sugar highlighter #111</h3>
+                                    <p>Price: Rs. 18000.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w9.jpeg" alt="Raymond shirt">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>counter face palette</h3>
+                                    <p>Price: Rs. 1500.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w4.jpeg" alt="Charles shirt">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>coverage foundation</h3>
+                                    <p>Price: Rs. 1000.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w6.jpeg" alt="HXR">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>mattifying compact</h3>
+                                    <p>Price: Rs. 900.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="cart.php">
+                                <img src="img/face w2.jpeg" alt="PINK">
+                            </a>
+                            <center>
+                                <div class="caption">
+                                    <h3>sugar mini blush</h3>
+                                    <p>Price: Rs. 1200.00</p>
+                                    <?php if(!isset($_SESSION['email'])){  ?>
+                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br><br>
+           
+    </body>
+</html>
